@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loops in js</title>
+  </head>
+  <body>
+    <div class="container">This is all abt loops!</div>
+
+    <script>
+      console.log("hey world");
+      for (let i = 0; i < 4; i++) {
+        console.log(i);
+      }
+
+      let friends = ["faizan", "Muskan", "Yezan", "Fiaz"];
+      for (let index = 0; index < friends.length; index++) {
+        console.log("Hello friend " + friends[index] + " to Javascript");
+      }
+
+      friends.forEach(function fry(index) {
+        console.log("Hello Friend " + index + " " + "to modern JavaScript");
+      });
+
+      for (i of friends) {
+        console.log("Hello friend " + i + " " + "To modern js again");
+      }
+
+      //to iterate objects/dictionaries in JavaScript use for in loop
+
+      let employee = {
+        name: "faizan",
+        class: "second year",
+        clg: "SRMIST",
+      };
+
+      for (key in employee) {
+        console.log(`The ${key} of employee is ${employee[key]}`);
+      }
+
+      var i = 0;
+      while (i < 4) {
+        console.log(`${i} is less than 4`);
+        i++;
+      }
+
+      var i = 0;
+      do {
+        console.log(`${i} is less than 4`);
+        i++;
+      } while (i < 4);
+    </script>
+  </body>
+</html>

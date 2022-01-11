@@ -1,0 +1,15 @@
+{
+  "name": "faizan",
+  "version": "1.0.0",
+  "description": "This is a package to learn Express and creating first project on express and node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faizan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
